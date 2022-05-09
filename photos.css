@@ -1,0 +1,71 @@
+body{
+    background-image: url(location6.jpg);
+    background-size: 100%;
+}
+
+.menu div{
+    padding: 15px;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    margin-top: 0px;
+    margin-left: 7%;
+    text-align: center;
+    margin: 1px;
+  
+  }
+  .menu{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20px;
+    background-color: gray;
+  }
+  
+  
+  a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: #ccc;
+  }
+  a:hover{
+    border-bottom: 1px solid;
+    color: rgb(185, 53, 53);
+  }
+  a:active{
+    color: rgb(185, 53, 53);
+  }
+  
+  .droite div{
+    margin: 0%;
+    padding: 0%;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+
+
+div.photos {
+    margin: 20px;
+    margin-bottom: 40px;
+    border: 0.5px solid #ccc;
+    border-block-end: 2px;
+    width:280px;
+    float: left;
+    height: 180px;
+  }
+  
+ 
+  
+  div.photos img {
+    width: 100%;
+    height: 90%;
+  }
+  
+  div.description {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(167, 148, 135);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ccc;
+}

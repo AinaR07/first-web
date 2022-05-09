@@ -1,0 +1,83 @@
+body{
+  background-image: url(location6.jpg);
+}
+
+.menu div{
+    padding: 15px;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    margin-top: 0px;
+    margin-left: 7%;
+    text-align: center;
+    margin: 1px;
+  
+  }
+  .menu{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: 20px;
+    background-color: gray;
+  }
+  
+  
+  a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: #ccc;
+  }
+  a:hover{
+    border-bottom: 1px solid;
+    color: rgb(185, 53, 53);
+  }
+  a:active{
+    color: rgb(185, 53, 53);
+  }
+
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+   border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  
+  } 
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(185, 53, 53);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(110, 9, 9);
+    margin: 8px 0;
+  }
+
+  #name {
+    border-radius: 5px;
+    background-color:beige;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(location6.jpg);
+    text-align: center;
+  }
+  #name1 {
+    background-color: lightgrey;
+    
+    border: 15px solid  rgb(167, 148, 135);
+    padding: 50px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
