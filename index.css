@@ -1,5 +1,5 @@
 body{
- background-image: url(location6.jpg);
+ background-image: url("images/location6.jpg");
  background-size: 100%;
 
 }
@@ -67,14 +67,14 @@ a:active{
   
     @media screen and (min-width: 375px) {
       body{
-        background-image: url(location6.jpg);
+        background-image: url("images/location6.jpg");
         background-size: 100%; 
       }
       
   }
   @media screen and (max-width: 375pxs) {
       body{
-        background-image: url(location6.jpg);
+        background-image: url("images/location6.jpg");
         background-size: 100%;
       }
   }
@@ -82,14 +82,14 @@ a:active{
   
   @media screen and (min-height: 375px) {
     body{
-      background-image: url(location6.jpg);
+      background-image: url("images/location6.jpg");
       background-size: 100%; 
     }
     
 }
 @media screen and (max-height: 375pxs) {
     body{
-      background-image: url(location6.jpg);
+      background-image: url("images/location6.jpg");
       background-size: 100%;
     }
 }

@@ -1,5 +1,5 @@
 body{
-  background-image: url(location6.jpg);
+  background-image: url("images/location6.jpg");
 }
 
 .menu div{
@@ -69,7 +69,7 @@ input[type=text], select {
     background-color:beige;
     padding: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(location6.jpg);
+    background-image: url("images/location6.jpg");
     text-align: center;
   }
   #name1 {
